@@ -8,9 +8,10 @@ int main (void)
 {
   double n1=0;
   double n2=0;
+  std::cout<<"Ingrese 2 numeros"<<'\n';
   std::cin>>n1;
   std::cin>>n2;
-  std::cout<<max(n1,n2)<< '\n';
+  std::cout<<"El numero mayor es  "<<max (n1,n2)<<'\n';
   
   return 0;
   
